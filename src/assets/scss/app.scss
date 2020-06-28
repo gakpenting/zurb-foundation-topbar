@@ -1,0 +1,150 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+// Global styles
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-switch;
+@include foundation-table;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
+@include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+// Helpers
+@include foundation-float-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+// Motion UI
+@include motion-ui-transitions;
+@include motion-ui-animations;
+.top-bar-red{
+    background: #e43338 !important;
+    
+  }
+@media only screen and (max-width: 414px) {
+    .dropdown-menu-bar{
+      background: #e43338 !important;
+      display: none;
+    }
+    .dropdown-menu-bar > ul > li > a{
+       color: white;
+    }
+    .card-maker {
+      position: relative !important;
+      padding-top:0px;
+    }
+    .card-editor {
+      margin-left: 14px !important;
+      padding-bottom: 0;
+      width: 27.25em !important;
+      font-size: 0.84em;
+    }
+    .card-container{
+      width: 19.5em !important;
+  
+    }
+    h2, .hero h1 {
+      font-size: 14px;
+    }
+    .button.btn-reset {
+      margin-right: 14px !important;
+    }
+    .sidebar-right {
+      margin-top:0px !important;
+    }
+    .sidebar-right-menu{
+      float:right;
+      color:white;
+      margin-right:20px;
+      font-size:20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .dropdown-menu-bar{
+      background: #e43338 !important;
+      display: none;
+    }
+    .dropdown-menu-bar > ul > li > a{
+      color: white;
+    }
+     .card-maker {
+      position: relative !important;
+      height: 18em;
+       padding-top:0px;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    .dropdown-menu-bar{
+      background: #e43338 !important;
+      display: none;
+    }
+    .dropdown-menu-bar > ul > li > a{
+      color: white;
+    }
+    .card-maker {
+      position: relative !important;
+      padding-top:0px;
+       }
+    .sidebar-right-menu{
+      float:right;
+      color:white;
+      margin-right:20px;
+      font-size:20px;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .hide-for-ipadpro{
+      display:none !important;
+      float:left !important;
+    }
+    .show-for-ipadpro{
+      display:block !important;
+      float:left !important;
+    }
+  }
