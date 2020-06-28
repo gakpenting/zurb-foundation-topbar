@@ -4,7 +4,7 @@
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/catflip/zurb-foundation-topbar&tutorial=README.md)
 
-i create an article explaining about this here 
+i create an article explaining about this here https://dev.to/spiritbro1/how-to-make-bootstrap-like-top-bar-for-foundation-zurb-1jpn-temp-slug-6988359/
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
